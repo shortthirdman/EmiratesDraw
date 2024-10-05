@@ -49,7 +49,7 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman/EmiratesDra
   - Start your development `Jupyter Notebook` or `Jupyter Lab` server
 	
 	```shell
-	jupyter lab --notebook-dir=.\notebooks --no-browser
+	jupyter lab --no-browser
 	```
 	
 	```shell
