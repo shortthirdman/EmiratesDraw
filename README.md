@@ -15,15 +15,15 @@ Emirates Draw Games is a non-gambling draw operator headquartered in the United 
 ```
 
 ```shell
- docker build --no-cache -f Dockerfile --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .
+ docker build --no-cache -f Dockerfile --progress=auto --compress --rm -t shortthirdman/EmiratesDraw:latest .
 ```
 
 ```shell
-docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .
+docker buildx build --progress=auto --compress --rm -t shortthirdman/EmiratesDraw:latest .
 ```
 
 ```shell
- docker run -d -n mlops -p 8888:8888 --restart unless-stopped shortthirdman-org/bigdata-mlops-platform:latest
+ docker run -d -n emiratesdraw -p 8888:8888 --restart unless-stopped shortthirdman/EmiratesDraw:latest
 ```
 
 
